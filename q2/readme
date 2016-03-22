@@ -1,0 +1,34 @@
+1.To run the procedure, please use the following ways:
+  1) Step 1: input in the console like this: 
+  python primary_handler.py server_name
+  2)open the browser, input the following web link:
+  http://server_name:8010/?i=3
+  3) If you want to stop the procedure, please cd to the code path and enter:
+  sh stop_app.sh
+  4) If need clear some log and backup file, please enter in the console whose path is the same step 3):
+  sh clear_log.sh
+
+
+  the following is an example:
+  1) input in the console: 
+  python primary_handler.py cp01-rdqa-dev390.cp01.baidu.com
+  2) input in the browser:
+  http://cp01-rdqa-dev390.cp01.baidu.com:8010/?i=3
+  3) the number 3, you can change as your requirement
+
+2.To check the result, there are three ways:
+  1) The output will be showed in the console, you can double check the result to qualify the requirement
+  2) You can check the log which will be named as the running time in the current path
+  3) You can review the result in the web browser
+
+3. If some error occurs, please double check the output info and handle it as the reference info
+
+4. To run the UT case, please use the following command in the console:
+   python ut_http_server.py -v
+   python ut_ut_fibonacci.py -v 
+   and check the ouput in the console to get the test result.
+
+5. The related script commands:
+   1) stop the web server in the console: sh stop_app.sh
+   2) clear some log and backup file:sh clear_log.sh
+

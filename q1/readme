@@ -1,0 +1,13 @@
+1.To run the procedure, please use the following ways:
+  python primary_handler.py ./ test.txt
+
+  of course, you can use the other path to store the test file
+2.To check the result, there are two ways:
+  1) The output will be showed in the console, you can double check the result to qualify the requirement
+  2) You can check the log file which will be named as the running time in the current path
+
+3. If some error occurs, please double check the output info and handle it as the reference info
+
+4. To run the UT case, please use the following command in the console:
+   python ut_num_handler.py -v
+   and check the ouput in the console to get the test result.
